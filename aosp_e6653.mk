@@ -55,3 +55,11 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.lcd_density=480 \
     ro.usb.pid_suffix=1D9
+
+# Lights
+PRODUCT_PACKAGES += \
+    lights.sumire
+
+# Power
+PRODUCT_PACKAGES += \
+    power.sumire
